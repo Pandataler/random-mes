@@ -25,7 +25,7 @@ def switch_to_discord():
     print("⚠️ Окно Discord не найдено!")
     return False
 
-time.sleep(3)  # Даем время переключиться вручную, если нужно
+time.sleep(3)  # Даем время переключиться вручную, если нужноo
 
 while True:
     if switch_to_discord():  # Если нашли окно Discord
