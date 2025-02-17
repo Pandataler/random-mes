@@ -15,7 +15,7 @@ messages = read_messages_from_file('messages.txt')
 def switch_to_discord():
     """Переключается на окно браузера с Discord."""
     for window in gw.getWindowsWithTitle("Discord"):
-        if window.isMinimized:  # Разворачиваем, если свернуто
+        if window.isMinimized:  
             window.restore()
         window.activate()
         time.sleep(1)  # Даем время активироваться
