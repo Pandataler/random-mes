@@ -10,7 +10,6 @@ def read_messages_from_file(file_path):
     messages = [message.strip() for message in messages if message.strip()]
     return messages
 
-# Чтение сообщений из файла
 messages = read_messages_from_file('messages.txt')
 
 def switch_to_discord():
