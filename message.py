@@ -3,7 +3,6 @@ import time
 import random
 import pygetwindow as gw
 
-# Функция для чтения сообщений из файла
 def read_messages_from_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         messages = file.readlines()
