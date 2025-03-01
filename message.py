@@ -10,7 +10,7 @@ def read_messages_from_file(file_path):
     messages = [message.strip() for message in messages if message.strip()]
     return messages
 
-messages = read_messages_from_file('messages.txt')
+messages = read_messages_from_file('messages1.txt')
 
 def switch_to_discord():
     """Переключается на окно браузера с Discord."""
