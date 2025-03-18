@@ -20,7 +20,7 @@ def switch_to_discord():
         window.activate()
         time.sleep(1)  # Даем время активироваться
         return True
-    print("⚠️ Discord не найдено!")
+    print(" Discord не найдено!")
     return False
 
 time.sleep(3)  # Даем время переключиться вручную, если нужноo
