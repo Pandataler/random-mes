@@ -13,7 +13,7 @@ def read_messages_from_file(file_path):
 messages = read_messages_from_file('messages21.txt')
 
 def switch_to_discord():
-    """Переключается на окно браузера с Discord."""
+    """Переключается на окно с Discord."""
     for window in gw.getWindowsWithTitle("Discord"):
         if window.isMinimized:  
             window.restore()
